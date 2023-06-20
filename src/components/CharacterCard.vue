@@ -1,14 +1,14 @@
 <template>
         <article class="card mb-3 col-2">
             <div class="px-0 mx-0">
-                <img src="https://images.ygoprodeck.com/images/cards_small/34541863.jpg" class="card-img-top " alt="...">
+                <img :src="image_url_small" class="card-img-top " alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">
-                    Card title
+                    {{ name }}
                 </h5>
                 <p class="card-text">
-                    Nome carta
+                    {{ archetype }}
                 </p>
             </div>
         </article>
@@ -22,6 +22,11 @@ export default {
         return {
 
         }
+    },
+    props:{
+        name : String,
+        archetype: String,
+        image_url_small: String,
     }
 }
 </script>
