@@ -1,6 +1,8 @@
 <template>
         <article class="card mb-3 col-2">
-            <img src="https://images.ygoprodeck.com/images/cards_small/34541863.jpg" class="card-img-top" alt="...">
+            <div class="px-0 mx-0">
+                <img src="https://images.ygoprodeck.com/images/cards_small/34541863.jpg" class="card-img-top " alt="...">
+            </div>
             <div class="card-body">
                 <h5 class="card-title">
                     Card title
@@ -8,7 +10,6 @@
                 <p class="card-text">
                     Nome carta
                 </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </article>
 </template>
@@ -26,4 +27,8 @@ export default {
 </script>
 
 
-<style lang="scss"></style>
+<style lang="scss">
+    .card-body{
+        background-color: #D48F38;
+    }
+</style>

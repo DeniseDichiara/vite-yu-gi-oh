@@ -1,7 +1,11 @@
 <template>
     <div class="container">
         <div class="row p-5">
-            <h2>CharacterList</h2>
+            <div class="col-12 my_found-cards d-flex align-items-center mt-2">
+                <p>
+                    Found 39 cards
+                </p>
+            </div>
             <CharacterCard />
         </div>
     </div>
@@ -42,6 +46,10 @@ export default {
 
 <style lang="scss" scoped>
     .container{
-        background-color: greenyellow;
+        background-color: white;
+        .my_found-cards{
+            background-color: black;
+            color: white;
+        }
     }
 </style>

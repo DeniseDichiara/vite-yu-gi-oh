@@ -36,6 +36,6 @@ export default {
 
 <style lang="scss">
 main {
-    background-color: orange;
+    background-color:#D48F38;
 }
 </style>
