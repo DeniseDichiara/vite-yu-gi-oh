@@ -1,12 +1,13 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue';
+import { store } from './store.js';
 
 export default {
   name: 'App',
 
   data(){
     return{
-
+      store
     }
   }
 }
@@ -23,7 +24,7 @@ export default {
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld />
 </template>
 
 <style scoped>
