@@ -7,11 +7,6 @@
             <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Alien
             </button>
-            <ul class="dropdown-menu">
-                <li><button class="dropdown-item" type="button">Action</button></li>
-                <li><button class="dropdown-item" type="button">Another action</button></li>
-                <li><button class="dropdown-item" type="button">Something else here</button></li>
-            </ul>
         </div>
 
 
@@ -39,4 +34,8 @@ export default {
 </script>
 
 
-<style lang="scss"></style>
+<style lang="scss">
+main {
+    background-color: orange;
+}
+</style>

@@ -1,6 +1,7 @@
 <template>
     <div class="container">
         <div class="row p-5">
+            <h2>CharacterList</h2>
             <CharacterCard />
         </div>
     </div>
@@ -39,8 +40,8 @@ export default {
 </script>
 
 
-<style lang="scss">
-main {
-    background-color: orange;
-}
+<style lang="scss" scoped>
+    .container{
+        background-color: greenyellow;
+    }
 </style>
