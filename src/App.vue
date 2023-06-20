@@ -1,14 +1,19 @@
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-import { store } from './store.js';
+import AppHeader from './components/AppHeader.vue' ;
+import AppMain from './components/AppMain.vue' ;
+
+
 
 export default {
   name: 'App',
 
   data(){
     return{
-      store
     }
+  },
+  components: {
+    AppHeader,
+    AppMain
   }
 }
 
@@ -16,15 +21,8 @@ export default {
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld />
+  <AppHeader />
+  <AppMain />
 </template>
 
 <style scoped>
