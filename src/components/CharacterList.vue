@@ -15,7 +15,7 @@ export default {
     name: 'CharacterList',
     data() {
         return {
-
+            charactersList : [],
         }
     },
     components: {
