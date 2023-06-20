@@ -1,6 +1,6 @@
 <template>
         <article class="card mb-3 col-2">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="https://images.ygoprodeck.com/images/cards_small/34541863.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">
                     Card title
