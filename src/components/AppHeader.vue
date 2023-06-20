@@ -2,11 +2,13 @@
     <header class="mb-3">
         <nav class="navbar bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="Logo"
-                        class="d-inline-block align-text-top me-5">
-                    Yu-gi-oh
-                </a>
+                <div class="uppernavbar d-flex flex-row justify-content-start">
+                    <div class="img-logo me-4">
+                        <img src="..." alt="Yu-Gi-Oh Logo ">
+                    </div>
+                    <h1>Yu-Gi-Oh Api</h1>
+                </div>
+                
             </div>
         </nav>
     </header>
